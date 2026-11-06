@@ -1,0 +1,95 @@
+body {
+    background-color: beige;
+    color: aquamarine;
+}
+#achtergrond {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+nav {
+    display: flex;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    
+    .nav {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex: 1;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .image1 {
+        display: flex;
+        justify-content: flex-start;
+        max-width: 7em;
+        margin-right: 5em;
+        flex: 1;
+    }
+
+    a {
+        text-decoration: none;
+        color: aquamarine;
+    }
+
+}
+
+.container {
+    flex: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image2{
+    display: flex;
+    img{
+        max-width: 30em;
+    }
+}
+.Wie {
+    display: flex;
+    flex-direction: column;
+    max-width: 30em;
+    
+}
+
+.Werk {
+    max-width: 30em;
+}
+
+.School {
+    max-width: 30em;
+}
+
+
+
+table {
+    background-color: aquamarine;
+    min-width: fit-content;
+    color: black;
+    z-index: 5;
+    position: fixed;
+    margin-top: 33em;
+}
+table,td,th{
+    border: 1px solid black;
+}
+td,th{
+    background-color: beige;
+}
+td {
+    text-align: center;
+    text-wrap: nowrap;
+}
+.fixed{
+    margin-top: 3em;
+    z-index: 5;
+    position: fixed;
+}
