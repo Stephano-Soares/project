@@ -44,10 +44,14 @@ label{
     justify-content: space-between;
     .image2{
         display: flex;
+        margin-left: 10em;
         max-width: 25em;
         max-width: auto;
         max-height: 25em;
     }
+}
+.image-2{
+    margin-left: -7em;
 }
 button{
     padding: 1em;

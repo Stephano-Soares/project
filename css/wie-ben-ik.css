@@ -57,7 +57,7 @@ nav {
     display: flex;
     flex-direction: column;
     max-width: 30em;
-    
+    margin-top: 1.5em;
 }
 
 .Werk {
